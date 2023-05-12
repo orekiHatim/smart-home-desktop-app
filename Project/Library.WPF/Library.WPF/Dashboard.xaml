@@ -1,0 +1,404 @@
+﻿<Window x:Class="Library.WPF.Dashboard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:uc="clr-namespace:Library.WPF.UserControls"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:Library.WPF"
+        mc:Ignorable="d"
+        Title="Dashboard" Height="1100" Width="1340"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{x:Null}"
+        AllowsTransparency="True"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen" Loaded="load" MouseLeftButtonDown="Window_MouseLeftButtonDown"
+        >
+
+    <materialDesign:Card Background="{DynamicResource MaterialDesignPaper}" UniformCornerRadius="15" Margin="25" materialDesign:ShadowAssist.ShadowDepth="Depth4">
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="190"></ColumnDefinition>
+                <ColumnDefinition Width="700"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <materialDesign:ColorZone Grid.Column="0" Height="1050" CornerRadius="15 0 0 15" Background="White">
+
+                <StackPanel Margin="15">
+
+                    <WrapPanel Margin="0 10 5 40" HorizontalAlignment="Center">
+                        <Image RenderOptions.BitmapScalingMode="HighQuality" Source="logo-purple.png" Height="160" Width="160"></Image>
+                    </WrapPanel>
+
+                    <Button Style="{StaticResource MaterialDesignFlatButton}" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}"
+                            materialDesign:ButtonAssist.CornerRadius="6" Width="auto" Height="35" materialDesign:RippleAssist.Feedback="white"
+                            Margin="0 0 0 15">
+
+
+                        <WrapPanel Width="120">
+                            <materialDesign:PackIcon Kind="Home" VerticalAlignment="Center" Margin="0 0 20 0"></materialDesign:PackIcon>
+                            <TextBlock>Dashboard</TextBlock>
+                        </WrapPanel>
+                    </Button>
+
+                    <Button Style="{StaticResource MaterialDesignFlatButton}" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}"
+                            materialDesign:ButtonAssist.CornerRadius="6" Width="auto" Height="35" materialDesign:RippleAssist.Feedback="white"
+                            Margin="0 0 0 15" Click="clientTab">
+
+                        <WrapPanel Width="120">
+                            <materialDesign:PackIcon Kind="User" VerticalAlignment="Center" Margin="0 0 20 0"></materialDesign:PackIcon>
+                            <TextBlock>Clients</TextBlock>
+                        </WrapPanel>
+                    </Button>
+
+                    <Button Style="{StaticResource MaterialDesignFlatButton}" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}"
+                            materialDesign:ButtonAssist.CornerRadius="6" Width="auto" Height="35" materialDesign:RippleAssist.Feedback="white"
+                            Margin="0 0 0 15" Click="Button_Click">
+
+                        <WrapPanel Width="120">
+                            <materialDesign:PackIcon Kind="Book" VerticalAlignment="Center" Margin="0 0 20 0"></materialDesign:PackIcon>
+                            <TextBlock>Books</TextBlock>
+                        </WrapPanel>
+                    </Button>
+
+                    <Button Style="{StaticResource MaterialDesignFlatButton}" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}"
+                            materialDesign:ButtonAssist.CornerRadius="6" Width="auto" Height="35" materialDesign:RippleAssist.Feedback="white"
+                            Margin="0 0 0 15">
+
+                        <WrapPanel Width="120">
+                            <materialDesign:PackIcon Kind="Disc" VerticalAlignment="Center" Margin="0 0 20 0"></materialDesign:PackIcon>
+                            <TextBlock>CDs</TextBlock>
+                        </WrapPanel>
+                    </Button>
+
+                    <Button Style="{StaticResource MaterialDesignFlatButton}" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}"
+                            materialDesign:ButtonAssist.CornerRadius="6" Width="auto" Height="35" materialDesign:RippleAssist.Feedback="white"
+                            Margin="0 0 0 15">
+
+                        <WrapPanel Width="120">
+                            <materialDesign:PackIcon Kind="Tab" VerticalAlignment="Center" Margin="0 0 20 0"></materialDesign:PackIcon>
+                            <TextBlock>Periodiques</TextBlock>
+                        </WrapPanel>
+                    </Button>
+
+                    <Button Style="{StaticResource MaterialDesignFlatButton}" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}"
+                            materialDesign:ButtonAssist.CornerRadius="6" Width="auto" Height="35" materialDesign:RippleAssist.Feedback="white"
+                            Margin="0 0 0 15">
+
+                        <WrapPanel Width="120">
+                            <materialDesign:PackIcon Kind="Money" VerticalAlignment="Center" Margin="0 0 20 0"></materialDesign:PackIcon>
+                            <TextBlock>Loans</TextBlock>
+                        </WrapPanel>
+                    </Button>
+
+                    <Button Style="{StaticResource MaterialDesignFlatButton}" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}"
+                            materialDesign:ButtonAssist.CornerRadius="6" Width="auto" Height="35" materialDesign:RippleAssist.Feedback="white"
+                            Margin="0 0 0 15" x:Name="logoutBtn" Click="logout">
+
+                        <WrapPanel Width="120">
+                            <materialDesign:PackIcon Kind="Logout" VerticalAlignment="Center" Margin="0 0 20 0"></materialDesign:PackIcon>
+                            <TextBlock>Logout</TextBlock>
+                        </WrapPanel>
+                    </Button>
+                </StackPanel>
+
+            </materialDesign:ColorZone>
+
+            <StackPanel Margin="30 12 0 0" Grid.Column="1">
+                <DockPanel Margin="0 12 5 0">
+                    <TextBlock HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="17" FontWeight="Bold" Text="Dashboard"></TextBlock>
+                </DockPanel>
+
+                <DockPanel Margin="0 5 0 0">
+                    <TextBlock x:Name="admin" Text="Hello Admin" Foreground="#ac72ee" FontSize="20"></TextBlock>
+                    <Separator VerticalAlignment="Center" Margin="10 10 0 0"></Separator>
+                </DockPanel>
+
+                <Border Background="White" Margin="0 20 0 10" CornerRadius="15" Height="155" ClipToBounds="True" Padding="10">
+
+                    
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="200"></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+
+                        </Grid.ColumnDefinitions>
+
+                        <Image RenderOptions.BitmapScalingMode="HighQuality" Source="imgs/shape-gradienta2.png" Height="300" Width="300" VerticalAlignment="Top" 
+                           HorizontalAlignment="Left" Margin="-79"></Image>
+                        <Image Grid.Column="2" RenderOptions.BitmapScalingMode="HighQuality" Source="imgs/shape-gradienta2.png" Height="300" Width="300" VerticalAlignment="Top" 
+                           HorizontalAlignment="Right" Margin="0 -90 -200 0"></Image>
+
+                        <TextBlock Text="Welcome Home!" Foreground="White" FontSize="20" FontWeight="Bold"></TextBlock>
+                        <TextBlock VerticalAlignment="Center" Foreground="AliceBlue" Margin="0 -10 0 0">Lorem ipsum is simply dummy text of the printing <LineBreak></LineBreak> and typesetting industry.
+                            Lorem Ipsum <LineBreak></LineBreak> has been the industry's standard.</TextBlock>
+
+                        <StackPanel Grid.Column="2" Margin="-10 0 0 0">
+
+                            <DockPanel>
+                                <materialDesign:PackIcon Kind="Temperature" Width="20" Height="20" Foreground="DarkBlue" Margin="80 0 0 0"></materialDesign:PackIcon>
+                                <TextBlock Text="Outdoor Temperature" VerticalAlignment="Center" FontSize="15" Foreground="DarkBlue" FontWeight="SemiBold" Margin="5 0 0 0"></TextBlock>
+                            </DockPanel>
+
+                            <DockPanel Margin="0 5 0 0">
+                                <TextBlock Text="+30°C" FontSize="30" FontWeight="Bold" Foreground="DarkRed" Margin="80 0 0 0"></TextBlock>
+                                <materialDesign:PackIcon Kind="WeatherSunny" Width="20" Height="20" Foreground="DarkRed" Margin="20 0 0 0"
+                                                         VerticalAlignment="Center"></materialDesign:PackIcon>
+                                <TextBlock Text="Sunny Day" VerticalAlignment="Center" FontSize="15" Foreground="DarkRed" FontWeight="SemiBold" Margin="5 0 0 0"></TextBlock>
+                            </DockPanel>
+                            <TextBlock VerticalAlignment="Center" Foreground="Gray" Margin="85 0 100 0">Lorem ipsum is simply dummy text of <LineBreak></LineBreak> the printing and typesetting industry. <LineBreak></LineBreak>
+                            Lorem Ipsum has been the industry's <LineBreak></LineBreak> standard.</TextBlock>
+
+
+
+                        </StackPanel>
+                    </Grid>
+
+                </Border>
+
+
+
+                <Grid Margin="0 20 0 0" Height="80">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition ></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Border Grid.Column="0" Background="White" CornerRadius="20" ClipToBounds="True" Margin="0 0 10 0" >
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="140"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+                            <Image Grid.Column="0" RenderOptions.BitmapScalingMode="HighQuality" Source="imgs/shape-gradienta2.png" Height="200" Width="200" VerticalAlignment="Top" 
+                           HorizontalAlignment="Left" Margin="-60 -65 0 0" RenderTransformOrigin="0.5,0.5">
+                                <Image.RenderTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform/>
+                                        <SkewTransform/>
+                                        <RotateTransform Angle="-165.885"/>
+                                        <TranslateTransform/>
+                                    </TransformGroup>
+                                </Image.RenderTransform>
+
+                            </Image>
+
+                            <DockPanel>
+                                <materialDesign:PackIcon Kind="Temperature" Width="25" Height="25" Foreground="White" VerticalAlignment="Center"></materialDesign:PackIcon>
+                                <TextBlock Foreground="White" FontSize="17" VerticalAlignment="Center" FontWeight="SemiBold">Temperature</TextBlock>
+                            </DockPanel>
+
+                            <DockPanel Grid.Column="1">
+                                <TextBlock Text="+30°C" FontSize="20" FontWeight="Bold" Foreground="DarkRed" VerticalAlignment="Center"></TextBlock>
+                                <Slider Foreground="#FF8C52FF" VerticalAlignment="Center" Margin="10 0 4 0"></Slider>
+                            </DockPanel>
+                        </Grid>
+
+                        
+
+                        
+                    </Border>
+
+                    <Border Grid.Column="1" Background="White" CornerRadius="20" ClipToBounds="True" Margin="10 0 0 0">
+
+
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="140"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+                            <Image Grid.Column="0" RenderOptions.BitmapScalingMode="HighQuality" Source="imgs/shape-gradienta2.png" Height="200" Width="200" VerticalAlignment="Top" 
+                           HorizontalAlignment="Left" Margin="-60 -65 0 0" RenderTransformOrigin="0.5,0.5">
+                                <Image.RenderTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform/>
+                                        <SkewTransform/>
+                                        <RotateTransform Angle="-165.885"/>
+                                        <TranslateTransform/>
+                                    </TransformGroup>
+                                </Image.RenderTransform>
+
+                            </Image>
+
+                            <DockPanel Margin="10 0 0 0">
+                                <materialDesign:PackIcon Kind="Water" Width="25" Height="25" Foreground="White" VerticalAlignment="Center"></materialDesign:PackIcon>
+                                <TextBlock Text="Humidity" Foreground="White" FontSize="17" VerticalAlignment="Center" FontWeight="SemiBold" ></TextBlock>
+                            </DockPanel>
+
+                            <DockPanel Grid.Column="1">
+                                <TextBlock Text="25%" FontSize="20" FontWeight="Bold" Foreground="DarkBlue" VerticalAlignment="Center"></TextBlock>
+                                <Slider Foreground="#FF8C52FF" VerticalAlignment="Center" Margin="10 0 4 0"></Slider>
+                            </DockPanel>
+                        </Grid>
+                        
+                        
+                    </Border>
+
+
+                </Grid>
+
+                <DockPanel Margin="0 18 0 0">
+                    <TextBlock Text="Hawk Eye" Foreground="#ac72ee" FontSize="20"></TextBlock>
+                    <Separator VerticalAlignment="Center" Margin="10 10 0 0"></Separator>
+                </DockPanel>
+
+                <StackPanel Margin="0 10 0 0">
+                    <uc:Zone x:Name="zone1" Kind="RoomService" Title="Living Room" TempTitle="+30C" Color="DarkRed" Margin="0 5 0 5" ></uc:Zone>
+                    <uc:Zone x:Name="zone2" Kind="Room" Title="Living Room" TempTitle="+30C" Color="DarkRed" Margin="0 5 0 5"></uc:Zone>
+                    <uc:Zone x:Name="zone3" Kind="Ro" Title="Living Room" TempTitle="+30C" Color="DarkRed" Margin="0 5 0 5"></uc:Zone>
+                    <uc:Zone x:Name="zone4" Kind="SmokingRooms" Title="Living Room" TempTitle="+30C" Color="DarkRed" Margin="0 5 0 5"></uc:Zone>
+                    <uc:Zone x:Name="zone5" Kind="RoomService" Title="Living Room" TempTitle="+30C" Color="DarkRed" Margin="0 5 0 5"></uc:Zone>
+                    <uc:Zone x:Name="zone6" Kind="Room" Title="Living Room" TempTitle="+30C" Color="DarkRed" Margin="0 5 0 5"></uc:Zone>
+                    <uc:Zone x:Name="zone7" Kind="Ro" Title="Living Room" TempTitle="+30C" Color="DarkRed" Margin="0 5 0 5"></uc:Zone>
+                    <uc:Zone x:Name="zone8" Kind="SmokingRooms" Title="Living Room" TempTitle="+30C" Color="DarkRed" Margin="0 5 0 5"></uc:Zone>
+                    <uc:Zone x:Name="zone9" Kind="RoomService" Title="Living Room" TempTitle="+30C" Color="DarkRed" Margin="0 5 0 5"></uc:Zone>
+                    <uc:Zone x:Name="zone10" Kind="Room" Title="Living Room" TempTitle="+30C" Color="DarkRed" Margin="0 5 0 5"></uc:Zone>
+                </StackPanel>
+               
+
+                <Grid Margin="0 20 0 0">
+
+                    <DockPanel Height="50" ClipToBounds="True" Background="White" Visibility="Collapsed">
+                        <Image RenderOptions.BitmapScalingMode="HighQuality" Source="imgs/shape-gradienta2.png" Height="200" Width="200" VerticalAlignment="Top" 
+                           HorizontalAlignment="Left" Margin="-85 -75 0 0" RenderTransformOrigin="0.5,0.5">
+                            <Image.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                    <SkewTransform/>
+                                    <RotateTransform Angle="56.118"/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </Image.RenderTransform>
+
+                        </Image>
+                    </DockPanel>
+
+                    
+                </Grid>
+
+
+            </StackPanel>
+
+            <materialDesign:ColorZone Grid.Column="2" Background="white" Margin="30 0 0 0" CornerRadius="0 15 15 0" Foreground="Black" Height="1050">
+                <StackPanel Margin="25 15 25 0">
+                    <DockPanel Margin="0 12 5 0">
+                        <TextBlock Text="Your Zone" FontSize="17" FontWeight="Bold" HorizontalAlignment="left" VerticalAlignment="Center"></TextBlock>
+                        <Button Style="{DynamicResource MaterialDesignIconButton}" materialDesign:RippleAssist.Feedback="White" Foreground="#FF6353F3"
+                                materialDesign:ButtonAssist.CornerRadius="6" Height="40" Width="40" DockPanel.Dock="Right" HorizontalAlignment="Right" Click="logout">
+
+                            <materialDesign:PackIcon Kind="Logout"></materialDesign:PackIcon>
+                        </Button>
+
+                    </DockPanel>
+                    <StackPanel Margin="0 20 0 20">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="150"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                            </Grid.RowDefinitions>
+
+                            <Button Height="auto" Width="auto" HorizontalAlignment="Right" Background="Transparent" BorderThickness="0" Padding="0">
+                                <WrapPanel>
+                                    <materialDesign:PackIcon Kind="ArrowBack" Width="30" Height="30" Foreground="#FF6353F3" RenderTransformOrigin="0.5,0.5"
+                                                     VerticalAlignment="Center">
+                                        <materialDesign:PackIcon.RenderTransform>
+                                            <TransformGroup>
+                                                <ScaleTransform/>
+                                                <SkewTransform/>
+                                                <RotateTransform Angle="179.882"/>
+                                                <TranslateTransform/>
+                                            </TransformGroup>
+                                        </materialDesign:PackIcon.RenderTransform>
+                                    </materialDesign:PackIcon>
+                                </WrapPanel>
+                            </Button>
+
+                            
+
+                            <Button Height="auto" Width="auto" HorizontalAlignment="Left" Background="Transparent" BorderThickness="0" Padding="0">
+                                <WrapPanel>
+                                    <materialDesign:PackIcon Kind="ArrowBack" Width="30" Height="30" Foreground="#FF6353F3" HorizontalAlignment="Left"
+                                                     VerticalAlignment="Center"></materialDesign:PackIcon>
+                                </WrapPanel>
+                            </Button>
+
+                            
+
+                            <uc:Zone2 Kind="Room" Title="Living Room" FTitle="Temp" FValue="20C" STitle="Humidity" SValue="30%"></uc:Zone2>
+
+                            <Border Width="250" CornerRadius="15" Padding="20" Visibility="Collapsed">
+                                <Border.Background>
+                                    <LinearGradientBrush>
+                                        <GradientStop Color="#FF8D54CF" Offset="0"></GradientStop>
+                                        <GradientStop Color="#FF6353F3" Offset="1"></GradientStop>
+
+                                    </LinearGradientBrush>
+                                </Border.Background>
+                                <Border.Effect>
+                                    <DropShadowEffect BlurRadius="20" ShadowDepth="0" Opacity="0.4"></DropShadowEffect>
+                                </Border.Effect>
+
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition></RowDefinition>
+                                        <RowDefinition></RowDefinition>
+                                    </Grid.RowDefinitions>
+
+                                    <materialDesign:PackIcon Kind="Room" Foreground="White" Height="50" Width="50" HorizontalAlignment="Left" VerticalAlignment="Center"></materialDesign:PackIcon>
+                                    <TextBlock Text="Living Room" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0 0 40 0" Foreground="White"
+                                               FontWeight="Bold"></TextBlock>
+                                    <materialDesign:PackIcon Kind="Information" Foreground="White" Height="20" Width="20" HorizontalAlignment="Right" VerticalAlignment="Top"></materialDesign:PackIcon>
+
+                                    <StackPanel Grid.Row="2">
+
+                                        <DockPanel>
+                                            <TextBlock Text="Temperature" Foreground="White" FontSize="15" FontWeight="Light"></TextBlock>
+                                            <TextBlock Text="26°C" Foreground="White" FontSize="15" FontWeight="Light" HorizontalAlignment="Right"></TextBlock>
+                                        </DockPanel>
+                                        <DockPanel>
+                                            <TextBlock Text="Humidity" Foreground="White" FontSize="15" FontWeight="Light"></TextBlock>
+                                            <TextBlock Text="53%" Foreground="White" FontSize="15" FontWeight="Light" HorizontalAlignment="Right"></TextBlock>
+                                        </DockPanel>
+
+
+                                    </StackPanel>
+                                </Grid>
+                            </Border>
+
+                            <StackPanel Grid.Row="2" Margin="0 20 0 0">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="150"></RowDefinition>
+                                        <RowDefinition Height="150"></RowDefinition>
+                                        <RowDefinition Height="150"></RowDefinition>
+                                    </Grid.RowDefinitions>
+                                    <uc:Equipement Grid.Row="0" Title="Door Lock" Name0="Light" Type1="Collapsed" Type2="Visible" Type2Value="On" Kind="Lock"></uc:Equipement>
+                                    <uc:Equipement Grid.Row="0" HorizontalAlignment="Right" Title="Light" Name0="Light" Type1="Visible" Type2="Collapsed" Kind="Bulb"
+                                                   Type1Value="0%"></uc:Equipement>
+                                    <uc:Equipement Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center" Title="Air Conditioning" Name0="Light" Type1="Visible"
+                                                   Type2="Collapsed" Kind="AirConditioning" Type1Value="0%"></uc:Equipement>
+                                    <uc:Equipement Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Center" Title="Humidifier" Name0="Light" Type1="Visible"
+                                                   Type2="Collapsed" Kind="AirHumidifier" Type1Value="0%"></uc:Equipement>
+                                    <uc:Equipement Grid.Row="2" Title="Camera" Name0="Light" Type1="Collapsed" Type2="Visible" Type2Value="On" Kind="SecurityCamera"></uc:Equipement>
+                                    <uc:Equipement Grid.Row="2" HorizontalAlignment="Right" VerticalAlignment="Center" Title="Windows" Name0="Light" Type1="Visible"
+                                                   Type2="Collapsed" Kind="WindowShutter" Type1Value="0%"></uc:Equipement>
+
+                                    
+                                </Grid>
+                            </StackPanel>
+                        </Grid>
+
+
+                    </StackPanel>
+
+                </StackPanel>
+
+            </materialDesign:ColorZone>
+        </Grid>
+
+    </materialDesign:Card>
+</Window>

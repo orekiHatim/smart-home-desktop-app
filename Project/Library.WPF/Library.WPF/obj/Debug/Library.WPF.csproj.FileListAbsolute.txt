@@ -1,0 +1,179 @@
+C:\Users\a\source\repos\Library.WPF\Library.WPF\obj\Debug\Library.WPF.csprojAssemblyReference.cache
+C:\Users\a\source\repos\Library.WPF\Library.WPF\obj\Debug\MainWindow.g.cs
+C:\Users\a\source\repos\Library.WPF\Library.WPF\obj\Debug\App.g.cs
+C:\Users\a\source\repos\Library.WPF\Library.WPF\obj\Debug\Library.WPF_MarkupCompile.cache
+C:\Users\a\source\repos\Library.WPF\Library.WPF\obj\Debug\Library.WPF_MarkupCompile.lref
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\Library.WPF.exe.config
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\Library.WPF.exe
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\Library.WPF.pdb
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\MaterialDesignColors.dll
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\MaterialDesignColors.pdb
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\a\source\repos\Library.WPF\Library.WPF\obj\Debug\App.baml
+C:\Users\a\source\repos\Library.WPF\Library.WPF\obj\Debug\MainWindow.baml
+C:\Users\a\source\repos\Library.WPF\Library.WPF\obj\Debug\Library.WPF.g.resources
+C:\Users\a\source\repos\Library.WPF\Library.WPF\obj\Debug\Library.WPF.Properties.Resources.resources
+C:\Users\a\source\repos\Library.WPF\Library.WPF\obj\Debug\Library.WPF.csproj.GenerateResource.cache
+C:\Users\a\source\repos\Library.WPF\Library.WPF\obj\Debug\Library.WPF.csproj.CoreCompileInputs.cache
+C:\Users\a\source\repos\Library.WPF\Library.WPF\obj\Debug\Library.WPF.csproj.CopyComplete
+C:\Users\a\source\repos\Library.WPF\Library.WPF\obj\Debug\Library.WPF.exe
+C:\Users\a\source\repos\Library.WPF\Library.WPF\obj\Debug\Library.WPF.pdb
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\Google.Protobuf.dll
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\MySql.Data.dll
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\MySqlConnector.dll
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\System.Buffers.dll
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\System.Memory.dll
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\ZstdNet.dll
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\Google.Protobuf.pdb
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\Google.Protobuf.xml
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\MySql.Data.xml
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\MySqlConnector.xml
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\System.Buffers.xml
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\System.Memory.xml
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\a\source\repos\Library.WPF\Library.WPF\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\a\source\repos\Library.WPF\Library.WPF\obj\Debug\Dashboard.g.cs
+C:\Users\a\source\repos\Library.WPF\Library.WPF\obj\Debug\Dashboard.baml
+C:\Users\a\source\repos\Library.WPF\Library.WPF\obj\Debug\Clients.g.cs
+C:\Users\a\source\repos\Library.WPF\Library.WPF\obj\Debug\Clients.baml
+C:\Users\a\source\repos\Library.WPF\Library.WPF\obj\Debug\addClient.g.cs
+C:\Users\a\source\repos\Library.WPF\Library.WPF\obj\Debug\addClient.baml
+C:\Users\a\source\repos\Library.WPF\Library.WPF\obj\Debug\Books.g.cs
+C:\Users\a\source\repos\Library.WPF\Library.WPF\obj\Debug\Books.baml
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\Library.WPF.exe.config
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\Library.WPF.exe
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\Library.WPF.pdb
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\Google.Protobuf.dll
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\MaterialDesignColors.dll
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\MySql.Data.dll
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\MySqlConnector.dll
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\System.Buffers.dll
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\System.Memory.dll
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\ZstdNet.dll
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\Google.Protobuf.pdb
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\Google.Protobuf.xml
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\MaterialDesignColors.pdb
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\MySql.Data.xml
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\MySqlConnector.xml
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\System.Buffers.xml
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\System.Memory.xml
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\obj\Debug\Library.WPF.csproj.AssemblyReference.cache
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\obj\Debug\Library.WPF.csproj.SuggestedBindingRedirects.cache
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\obj\Debug\addClient.g.cs
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\obj\Debug\Books.g.cs
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\obj\Debug\Clients.g.cs
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\obj\Debug\Dashboard.g.cs
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\obj\Debug\MainWindow.g.cs
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\obj\Debug\App.g.cs
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\obj\Debug\Library.WPF_MarkupCompile.cache
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\obj\Debug\Library.WPF_MarkupCompile.lref
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\obj\Debug\App.baml
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\obj\Debug\addClient.baml
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\obj\Debug\Books.baml
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\obj\Debug\Clients.baml
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\obj\Debug\Dashboard.baml
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\obj\Debug\MainWindow.baml
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\obj\Debug\Library.WPF.g.resources
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\obj\Debug\Library.WPF.Properties.Resources.resources
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\obj\Debug\Library.WPF.csproj.GenerateResource.cache
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\obj\Debug\Library.WPF.csproj.CoreCompileInputs.cache
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\obj\Debug\Library.WPF.csproj.CopyComplete
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\obj\Debug\Library.WPF.exe
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\obj\Debug\Library.WPF.pdb
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\obj\Debug\SmartDashboard.g.cs
+C:\Users\cc1\Downloads\Project\Project\Library.WPF\Library.WPF\obj\Debug\SmartDashboard.baml
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\Library.WPF.exe.config
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\Library.WPF.exe
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\Library.WPF.pdb
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\BouncyCastle.Crypto.dll
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\Google.Protobuf.dll
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\K4os.Compression.LZ4.dll
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\K4os.Compression.LZ4.Streams.dll
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\K4os.Hash.xxHash.dll
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\MaterialDesignColors.dll
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\MySql.Data.dll
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\MySqlConnector.dll
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\System.Buffers.dll
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\System.Memory.dll
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\System.Numerics.Vectors.dll
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\System.Threading.Tasks.Extensions.dll
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\ZstdNet.dll
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\BouncyCastle.Crypto.xml
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\Google.Protobuf.pdb
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\Google.Protobuf.xml
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\K4os.Compression.LZ4.xml
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\K4os.Compression.LZ4.Streams.xml
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\K4os.Hash.xxHash.xml
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\MaterialDesignColors.pdb
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\MySql.Data.xml
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\MySqlConnector.xml
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\System.Buffers.xml
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\System.Memory.xml
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\System.Numerics.Vectors.xml
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\bin\Debug\System.Threading.Tasks.Extensions.xml
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\obj\Debug\addClient.g.cs
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\obj\Debug\Dashboard.g.cs
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\obj\Debug\MainWindow.g.cs
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\obj\Debug\UserControls\Equipement.g.cs
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\obj\Debug\UserControls\Zone.g.cs
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\obj\Debug\UserControls\Zone2.g.cs
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\obj\Debug\App.g.cs
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\obj\Debug\Library.WPF_MarkupCompile.cache
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\obj\Debug\Library.WPF_MarkupCompile.lref
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\obj\Debug\App.baml
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\obj\Debug\addClient.baml
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\obj\Debug\Dashboard.baml
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\obj\Debug\MainWindow.baml
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\obj\Debug\UserControls\Equipement.baml
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\obj\Debug\UserControls\Zone.baml
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\obj\Debug\UserControls\Zone2.baml
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\obj\Debug\Library.WPF.g.resources
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\obj\Debug\Library.WPF.Properties.Resources.resources
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\obj\Debug\Library.WPF.csproj.GenerateResource.cache
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\obj\Debug\Library.WPF.csproj.CoreCompileInputs.cache
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\obj\Debug\Library.WPF.csproj.CopyComplete
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\obj\Debug\Library.WPF.exe
+F:\EMSI\4IIR\dotNet\Smart Home\Project\Project\Project\Library.WPF\Library.WPF\obj\Debug\Library.WPF.pdb
